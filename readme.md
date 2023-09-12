@@ -1,4 +1,4 @@
-#   Simple PHP 8.2 image
+#   Build PHP and apache2 image using configuration file
 -------------------
 Created image for the php 8.2, apache2 using ubuntu 22.04 latest LTS version.
 
@@ -19,7 +19,7 @@ Table of Contents
 Build the image yourself.
 
 ```bash
-git clone https://github.com/dineshpithiya/docker-ubuntu22.04-apache-php.git
+git clone https://github.com/dineshpithiya/docker-ubuntu22.04-apache-php-with-config.git
 cd docker-ubuntu22.04-apache-php
 docker build --tag ubuntu-apache-php .
 ```
